@@ -134,17 +134,18 @@ html {
   font-size: 24px;
 }
 body {
-  background: white;
+  background: rgb(211, 211, 211);
 }
 main {
   display: flex;
   flex-wrap: wrap;
 }
 section {
-  width: 70%;
+  width: 60%;
 }
 aside {
-  width: 30%;
+  width: 40%;
+  align-content: center;
 }
 
 h1 {
@@ -156,8 +157,11 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
-  padding: 0rem 1rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.75rem;
+  padding: 2rem 1rem 1.5rem 5rem;
 }
 
 h3 {
@@ -165,11 +169,19 @@ h3 {
   padding: 0rem 1rem;
 }
 
-p {
+h4 {
   font-family: "Work Sans", sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
-  padding: 0.5rem 5rem;
+  padding: 0.5rem 0rem 0.5rem 5rem;
+  color: black;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.5rem;
+  line-height: 0.75rem;
+  padding: 0.5rem 0rem 0.5rem 5rem;
   color: black;
 }
 
@@ -188,14 +200,13 @@ em {
 }
 
 nav a {
-  background: white;
   color: black;
   font-family: "Work Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-decoration: none;
   padding: 1rem 1rem;
   border-radius: 0.2rem;
-  margin: 1rem 1rem 1rem 3.5rem;
+  margin: 2.25rem 1rem 1rem 3.75rem;
   text-align: center;
   display: block;
 }
@@ -205,12 +216,10 @@ nav a:hover {
 }
 
 nav ul {
-  border: 5px solid white;
   display: flex;
 }
 
 nav ul li {
-  border: 0px solid white;
   /* display: inline-block; */
 }
 
@@ -229,7 +238,6 @@ section ul {
   aside {
     width: 100%;
   }
-  nav a{
-
+  nav a {
   }
 }
