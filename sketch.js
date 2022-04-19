@@ -7,13 +7,13 @@ var x; //for points along curve
 var y; //for points along curve
 
 function setup() {
-    var canvas = createCanvas(windowWidth/3,windowHeight/1.5);
+    var canvas = createCanvas(windowWidth/2,windowHeight/1.5);
     canvas.parent('sketch-holder');
     frameRate(10);
 }
 
 function draw() {
-    background(211);
+    background(180);
     //draws the epitrochoid curve
     //Cartesian Parametric Form  [x=f(t), y=g(t)]
     push();

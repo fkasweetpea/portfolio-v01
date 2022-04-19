@@ -128,24 +128,13 @@ table {
   border-spacing: 0;
 }
 
-/* custom css starts here */
+/* CUSTOM CSS STARTS HERE */
+/*CSS HERE*/
+/*ONE MORE TIME FOR BLIND ELISE*/
 
 html {
   font-size: 24px;
-}
-body {
-  background: rgb(211, 211, 211);
-}
-main {
-  display: flex;
-  flex-wrap: wrap;
-}
-section {
-  width: 60%;
-}
-aside {
-  width: 40%;
-  align-content: center;
+  background: rgb(180, 180, 180);
 }
 
 h1 {
@@ -153,7 +142,7 @@ h1 {
   font-weight: 700;
   font-style: italic;
   font-size: 2.5rem;
-  padding: 2rem 1rem 1.5rem 5rem;
+  padding: 1em 1em 1em 2em;
 }
 
 h2 {
@@ -161,19 +150,19 @@ h2 {
   font-weight: 700;
   font-style: italic;
   font-size: 1.75rem;
-  padding: 2rem 1rem 1.5rem 5rem;
+/*  padding: 2rem 1rem 1.5rem 5rem;*/
 }
 
 h3 {
   font-size: 1.5rem;
-  padding: 0rem 1rem;
+/*  padding: 0rem 1rem;*/
 }
 
 h4 {
   font-family: "Work Sans", sans-serif;
   font-size: 0.75rem;
-  line-height: 1rem;
-  padding: 0.5rem 0rem 0.5rem 5rem;
+/*  line-height: 1rem;*/
+/*  padding: 0.5rem 0rem 0.5rem 5rem;*/
   color: black;
 }
 
@@ -185,13 +174,8 @@ p {
   color: black;
 }
 
-iframe {
-  border: none;
-}
-
 strong {
   font-weight: 600;
-  /*text-transform: uppercase;*/
   color: rgb(212, 0, 255);
 }
 
@@ -199,14 +183,19 @@ em {
   font-style: italic;
 }
 
+b {
+  font-size: 0.9rem;
+}
+
 nav a {
+  width: 100%;
   color: black;
   font-family: "Work Sans", sans-serif;
   font-size: 0.8rem;
-  text-decoration: none;
-  padding: 1rem 1rem;
-  border-radius: 0.2rem;
-  margin: 2.25rem 1rem 1rem 3.75rem;
+/*  text-decoration: none;*/
+/*  padding: 1rem 1rem 0.25rem 1rem;*/
+/*  border-radius: 0.2rem;*/
+/*  margin: 2.25rem 1rem 0.25rem 3.75rem;*/
   text-align: center;
   display: block;
 }
@@ -219,25 +208,34 @@ nav ul {
   display: flex;
 }
 
-nav ul li {
-  /* display: inline-block; */
+main, section, header {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-section ol {
+main.intro section.introcore {
+  width: 60%;
+}
+
+main.intro section.wobblycircle {
+  width: 40%;
+  align-content: center;
+}
+
+/*iframe {
+  border: none;
+}*/
+
+/*section ol {
   list-style: number;
   margin-left: 1.5rem;
-}
+}*/
 
-section ul {
+/*section ul {
   list-style: disc;
   margin-left: 1.5rem;
-}
+}*/
+
 
 @media screen and (max-width: 700px) {
-  section,
-  aside {
-    width: 100%;
-  }
-  nav a {
-  }
 }
